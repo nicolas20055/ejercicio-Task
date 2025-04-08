@@ -1,9 +1,10 @@
-import { Main } from "../layouts/Main/Main";
+import React from 'react';
+import ContactForm from '../components/ContactForm/ContactForm';
 
-export const Home = ()=> {
+export const Home = () => {
   return (
     <>
-    <Main/>
+      <ContactForm />
     </>
-  )
-}
+  );
+};
